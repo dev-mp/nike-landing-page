@@ -1,0 +1,113 @@
+body {
+    background: #131112;
+    font-family: 'Nunito', sans-serif;
+    overflow-x:hidden;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: #131112;
+}
+
+#mainNav .nav-link {
+    color:#EEF0F2;
+    font-weight: 400;
+}
+
+#mainNav .nav-link:hover {
+    color:#DE7C5A;
+}
+
+
+#heading-group span {
+    color:red;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.slogan-2 {
+    color: #EEF0F2;
+}
+
+.slogan-2 span {
+    color:red;
+    font-weight:600;
+    font-size:2rem;
+}
+
+.shopping:hover {
+    color:#DE7C5A;
+} 
+
+.splitter {
+    height: 2px;
+    width: 100%;
+    background-color:#EEF0F2;
+}
+
+.footer-nav ul{
+    color:#EEF0F2;
+    list-style-type: none;
+    text-decoration:none;   
+    margin-right: 55px;
+}
+
+footer ul li {
+    padding: 6px 0;
+}
+
+footer ul li:hover, .help-me li:hover {
+   color:#DE7C5A;
+}
+
+.help-me h2 {
+    color:#EEF0F2;
+}
+
+.help-me li {
+    list-style-type:none;
+    text-decoration:none;
+    color: #60656F;
+    margin-left: -35px;
+}
+
+
+.foot-note {
+    display:flex;
+    justify-content: center;
+    color:#EEF0F2;
+}
+
+
+@media (max-width: 1200px) {
+   .slogan {
+       font-weight:100;
+       font-size: 100px;
+       
+   }
+}
+
+@media (max-width: 500px) {
+    #mainNav .nav-link {
+        color:white;
+    }
+
+}
+
+@media (min-width:100px) {
+    .slogan-2{
+        margin-top:2rem;
+    }
+}
+
+@media (min-width:700px){
+    footer {
+        display:inline-block;
+    }
+}
